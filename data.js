@@ -200,5 +200,45 @@ const COUNTRIES = {
     ],
     gdpHistory: [62,65,63,67,70,72,69,73,75,74,76,77],
     summary: "Australia's resource export revenues remain elevated, though softening Chinese demand for iron ore has tightened the trade surplus. The Reserve Bank of Australia began cutting rates in early 2025. Geopolitical realignment in the Indo-Pacific is increasingly shaping Australia's trade and investment policy choices."
-  }
+  },
+
+  newzealand: {
+    name: "New Zealand", flag: "🇳🇿", region: "Oceania",
+    status: "stable", statusLabel: "Recovering",
+    gdp: "$248B", gdpDelta: "+1.8%", gdpPos: true,
+    inflation: "2.5%", inflationDelta: "-0.8%", inflationPos: true,
+    unemployment: "5.3%", unemploymentDelta: "+1.1%", unemploymentPos: false,
+    tradeBalance: "-$8B", tradeBalanceDelta: "Deficit", tradeBalancePos: true,
+    currentAccount: "-3.5%", caPos: false,
+    fdi: "+$12B",
+    topExports: ["Dairy", "Meat", "Wool", "Timber"],
+    topPartners: [
+      { name: "China",       share: 28 },
+      { name: "Australia",   share: 15 },
+      { name: "USA",         share: 10  },
+      { name: "Japan",       share: 6  }
+    ],
+    gdpHistory: [60,58,55,52,56,59,57,54,50,53,56,58],
+    summary: "New Zealand is in the early stages of recovery after a sharp contraction in 2024 caused by aggressive monetary tightening. The Reserve Bank cut rates by 325 basis points since mid-2024, and lower borrowing costs are beginning to support household spending and housing activity. Agricultural exports, particularly dairy and meat, remain strong, and tourism is recovering. Trade policy uncertainty from U.S. tariffs and slowing Chinese demand present headwinds."
+  },
+
+  southafrica: {
+    name: "South Africa", flag: "🇿🇦", region: "Southern Africa",
+    status: "Mixed", statusLabel: "Mixed Signals",
+    gdp: "$430B", gdpDelta: "+1.1%", gdpPos: true,
+    inflation: "3.3%", inflationDelta: "+1.1%", inflationPos: true,
+    unemployment: "32.9%", unemploymentDelta: "+1.0%", unemploymentPos: false,
+    tradeBalance: "+$6B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-0.5%", caPos: false,
+    fdi: "+$9B",
+    topExports: ["Gold", "Platinum", "Coal", "Iron Ore"],
+    topPartners: [
+      { name: "EU",       share: 20 },
+      { name: "China",    share: 12 },
+      { name: "USA",      share: 8  },
+      { name: "UK",       share: 5  }
+    ],
+    gdpHistory: [42,40,44,47,45,48,50,49,51,52,50,53],
+    summary:summary: "South Africa holds the highest unemployment rate among G20 economies at nearly 33%, reflecting deep structural constraints on job creation. However, 2025 marked the strongest GDP growth since 2022 at 1.1%, aided by electricity reform reducing power outages, improved port and rail efficiency, and a successful disinflation cycle. A new 3% inflation target and a credit rating upgrade signal improving institutional credibility. Fiscal consolidation and reform momentum are key to sustaining a path toward 2%+ growth."
+},
 };
