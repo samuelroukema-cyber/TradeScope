@@ -10,6 +10,29 @@ function getStatusClass(status) {
   return map[status] || 'status-stable';
 }
 
+// Build the country dropdown, filtered by region
+function buildCountryDropdown(selectedRegion) {
+  const countrySelect = document.getElementById('country-select');
+  const previousValue = countrySelect.value;
+
+  const filtered = Object.entries(COUNTRIES).filter(([key, d]) => {
+    return selectedRegion === 'all' || d.region === selectedRegion;
+  });
+
+  filtered.sort((a, b) => a[1].name.localeCompare(b[1].name));
+
+  countrySelect.innerHTML = filtered.map(([key, d]) =>
+    `<option value="${key}">${d.flag} ${d.name}</option>`
+  ).join('');
+
+  const keys = filtered.map(([k]) => k);
+  if (keys.includes(previousValue)) {
+    countrySelect.value = previousValue;
+  }
+
+  renderCountry(countrySelect.value);
+}
+
 function renderCountry(key) {
   const d = COUNTRIES[key];
   if (!d) return;
@@ -104,7 +127,16 @@ function renderCountry(key) {
   `;
 }
 
-// Init
-const select = document.getElementById('country-select');
-select.addEventListener('change', () => renderCountry(select.value));
-renderCountry(select.value);
+// ─── Init ─────────────────────────────────────────────
+const regionSelect  = document.getElementById('region-select');
+const countrySelect = document.getElementById('country-select');
+
+buildCountryDropdown('all');
+
+regionSelect.addEventListener('change', () => {
+  buildCountryDropdown(regionSelect.value);
+});
+
+countrySelect.addEventListener('change', () => {
+  renderCountry(countrySelect.value);
+});
