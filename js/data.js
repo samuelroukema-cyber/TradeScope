@@ -202,7 +202,7 @@ const COUNTRIES = {
     summary: "Australia's resource export revenues remain elevated, though softening Chinese demand for iron ore has tightened the trade surplus. The Reserve Bank of Australia began cutting rates in early 2025. Geopolitical realignment in the Indo-Pacific is increasingly shaping Australia's trade and investment policy choices."
   },
   
- newzealand: {
+  newzealand: {
     name: "New Zealand", flag: "🇳🇿", region: "Oceania",
     status: "stable", statusLabel: "Recovering",
     gdp: "$248B", gdpDelta: "+1.8%", gdpPos: true,
