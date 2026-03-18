@@ -1122,4 +1122,202 @@ const COUNTRIES = {
     summary: "Algeria is Africa's largest country by area and a major natural gas supplier to Europe, a position significantly elevated by Russia's invasion of Ukraine which prompted EU countries to urgently diversify away from Russian gas. Italy is Algeria's top export destination and the two countries signed a major energy partnership. Algeria holds over $90 billion in foreign reserves, providing significant macroeconomic stability. However, the economy remains heavily dependent on hydrocarbons which account for around 95% of export earnings, and economic diversification has been slow. Private sector development is constrained by bureaucratic barriers and limited openness to foreign investment outside the energy sector. Youth unemployment and a large informal economy are structural challenges."
   },
 
+  poland: {
+    name: "Poland", flag: "🇵🇱", region: "Eastern Europe",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$842B", gdpDelta: "+3.2%", gdpPos: true,
+    inflation: "3.4%", inflationDelta: "-8.9%", inflationPos: true,
+    unemployment: "3.1%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "-$8B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-2.1%", caPos: false,
+    fdi: "+$22B",
+    topExports: ["Machinery", "Vehicles", "Electronics", "Food & Beverages"],
+    topPartners: [
+      { name: "Germany", share: 28 },
+      { name: "Czech Republic", share: 7 },
+      { name: "UK",      share: 6  },
+      { name: "France",  share: 6  }
+    ],
+    gdpHistory: [48,45,52,56,58,55,58,62,64,66,68,70],
+    summary: "Poland is Central Europe's largest economy and one of the EU's most consistent growth performers — the only EU member to avoid recession during the 2008–09 financial crisis. Growth of 3.2% in 2025 is driven by strong private consumption as real wages rise sharply, and by accelerating EU-funded public investment. Inflation has fallen dramatically from a 2023 peak of 18%, though it remains above the ECB's 2% target. Defence spending is among the highest in NATO as a share of GDP, reflecting Poland's frontline position and the Ukraine war. The labour market is historically tight. Poland is a manufacturing hub deeply embedded in German supply chains, making it sensitive to German industrial weakness — a growing structural risk."
+  },
+ 
+  belgium: {
+    name: "Belgium", flag: "🇧🇪", region: "Western Europe",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$632B", gdpDelta: "+1.0%", gdpPos: true,
+    inflation: "2.8%", inflationDelta: "-1.5%", inflationPos: true,
+    unemployment: "6.0%", unemploymentDelta: "+0.4%", unemploymentPos: false,
+    tradeBalance: "+$14B", tradeBalancDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-1.2%", caPos: false,
+    fdi: "+$31B",
+    topExports: ["Pharmaceuticals", "Chemicals", "Vehicles", "Food & Beverages"],
+    topPartners: [
+      { name: "Germany",     share: 17 },
+      { name: "France",      share: 15 },
+      { name: "Netherlands", share: 13 },
+      { name: "UK",          share: 8  }
+    ],
+    gdpHistory: [62,60,65,68,70,68,66,67,68,69,69,70],
+    summary: "Belgium is a small, highly open economy at the heart of the EU, hosting NATO and EU institutions and serving as a major logistics and pharmaceutical hub. GDP growth is projected at 1.0% in 2025, slowing due to high global uncertainty and decreased exports, with unemployment rising to 6.0% as a short-term consequence of labour market and pension reforms. Belgium's pharmaceutical sector — anchored by companies like UCB and Solvay — is a global strength. A persistent fiscal deficit of 5.3% of GDP and rising public debt are the central economic challenges, compounded by ageing-related spending pressures and mounting defence commitments under NATO targets."
+  },
+ 
+  singapore: {
+    name: "Singapore", flag: "🇸🇬", region: "Southeast Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$501B", gdpDelta: "+5.0%", gdpPos: true,
+    inflation: "0.8%", inflationDelta: "-2.4%", inflationPos: true,
+    unemployment: "2.0%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "+$68B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+17.0%", caPos: true,
+    fdi: "+$160B",
+    topExports: ["Electronics", "Petroleum Products", "Chemicals", "Machinery"],
+    topPartners: [
+      { name: "China",   share: 14 },
+      { name: "Malaysia", share: 12 },
+      { name: "USA",     share: 9  },
+      { name: "Hong Kong", share: 8 }
+    ],
+    gdpHistory: [62,58,65,70,72,74,75,76,78,80,82,84],
+    summary: "Singapore's economy expanded 5% in 2025, exceeding the Ministry of Trade and Industry's advance estimate, driven primarily by manufacturing, wholesale trade and finance, with robust AI-related electronics demand providing a key lift. Singapore is one of the world's most competitive and open economies, functioning as Southeast Asia's premier financial centre, logistics hub, and tech gateway. Consumer price inflation remained muted at 0.8%, among the lowest globally. Its extraordinary FDI inflows relative to GDP size reflect its status as the preferred Asian base for multinationals. The U.S.-Singapore trade surplus is a rare bright spot in U.S. trade accounts, reflecting Singapore's consumption of American services and financial products."
+  },
+ 
+  dominicanrepublic: {
+    name: "Dominican Republic", flag: "🇩🇴", region: "Central America",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$121B", gdpDelta: "+5.5%", gdpPos: true,
+    inflation: "3.8%", inflationDelta: "-1.1%", inflationPos: true,
+    unemployment: "5.1%", unemploymentDelta: "-0.5%", unemploymentPos: true,
+    tradeBalance: "-$14B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-3.2%", caPos: false,
+    fdi: "+$4.5B",
+    topExports: ["Medical Devices", "Gold", "Cigars", "Cacao"],
+    topPartners: [
+      { name: "USA",    share: 52 },
+      { name: "Haiti",  share: 7  },
+      { name: "Canada", share: 4  },
+      { name: "India",  share: 3  }
+    ],
+    gdpHistory: [48,50,40,52,58,60,62,64,65,67,68,70],
+    summary: "The Dominican Republic is the Caribbean's largest economy and one of Latin America's fastest-growing, expanding 5.5% in 2025. Tourism is a dominant sector, with the country hosting more visitors than any other Caribbean nation — over 10 million in 2025. Free trade zones have made the DR a significant medical device exporter and manufacturer, with the USA absorbing over half of all exports. Remittances from the large diaspora in the U.S. are a key income source. Growth is broad-based across services, construction, and manufacturing. Sound macroeconomic management and political stability relative to neighbours have made the DR one of the region's most investor-friendly destinations."
+  },
+ 
+  panama: {
+    name: "Panama", flag: "🇵🇦", region: "Central America",
+    status: "mixed", statusLabel: "Recovering",
+    gdp: "$77B", gdpDelta: "+2.9%", gdpPos: true,
+    inflation: "1.2%", inflationDelta: "-0.8%", inflationPos: true,
+    unemployment: "7.2%", unemploymentDelta: "-0.6%", unemploymentPos: true,
+    tradeBalance: "-$8B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-4.8%", caPos: false,
+    fdi: "+$3.8B",
+    topExports: ["Canal Services", "Gold", "Bananas", "Shrimp"],
+    topPartners: [
+      { name: "USA",   share: 21 },
+      { name: "China", share: 10 },
+      { name: "Ecuador", share: 6 },
+      { name: "Costa Rica", share: 5 }
+    ],
+    gdpHistory: [65,62,50,60,66,68,70,72,65,60,62,64],
+    summary: "Panama is recovering from a sharp 2023–24 slowdown caused by the closure of First Quantum Minerals' Cobre Panama copper mine — one of the world's largest — following protests over its environmental licence. The mine's closure cut GDP growth by several percentage points and triggered a sovereign credit rating downgrade. The Panama Canal remains the economy's anchor, generating vital transit fee revenues and underpinning Panama City's status as a regional financial and logistics hub. The canal's competitiveness is under scrutiny amid U.S. concerns about Chinese port operator influence on its Atlantic and Pacific terminal facilities. Growth of 2.9% in 2025 marks a tentative stabilisation."
+  },
+ 
+  uganda: {
+    name: "Uganda", flag: "🇺🇬", region: "East Africa",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$49B", gdpDelta: "+5.8%", gdpPos: true,
+    inflation: "3.8%", inflationDelta: "-1.2%", inflationPos: true,
+    unemployment: "2.8%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "-$4B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-8.2%", caPos: false,
+    fdi: "+$1.5B",
+    topExports: ["Coffee", "Gold", "Fish", "Maize"],
+    topPartners: [
+      { name: "UAE",          share: 19 },
+      { name: "Kenya",        share: 11 },
+      { name: "South Sudan",  share: 9  },
+      { name: "China",        share: 8  }
+    ],
+    gdpHistory: [35,36,37,39,38,41,43,44,45,46,47,49],
+    summary: "Uganda is one of East Africa's more consistent growth performers, expanding nearly 6% in 2025 on the back of agriculture, services, and rising oil sector investment. Uganda holds significant oil reserves in the Albertine Rift — the East Africa Crude Oil Pipeline (EACOP) project, connecting fields to Tanzania's coast, is progressing despite controversy over environmental and human rights concerns from Western investors and governments. Coffee is the dominant export. The large current account deficit reflects infrastructure import needs. Uganda faces significant development challenges including rapid population growth, limited industrialisation, and institutional governance pressures, but its youthful demographic base is a long-run growth asset."
+  },
+ 
+  namibia: {
+    name: "Namibia", flag: "🇳🇦", region: "Southern Africa",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$13B", gdpDelta: "+4.2%", gdpPos: true,
+    inflation: "4.5%", inflationDelta: "-0.8%", inflationPos: true,
+    unemployment: "19.4%", unemploymentDelta: "-0.8%", unemploymentPos: true,
+    tradeBalance: "+$1B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-9.1%", caPos: false,
+    fdi: "+$0.8B",
+    topExports: ["Diamonds", "Uranium", "Gold", "Fish"],
+    topPartners: [
+      { name: "South Africa", share: 33 },
+      { name: "China",        share: 12 },
+      { name: "EU",           share: 20 },
+      { name: "Botswana",     share: 5  }
+    ],
+    gdpHistory: [40,38,42,45,43,47,50,52,50,53,55,57],
+    summary: "Namibia is emerging as one of Africa's most exciting frontier energy stories. A massive offshore oil discovery — the Orange Basin fields off the southern coast — is estimated at over 11 billion barrels, potentially making Namibia a significant oil producer by the late 2020s. TotalEnergies and Shell are leading development. This prospective oil wealth is transforming Namibia's development outlook. Beyond energy, Namibia is a top diamond, uranium, and green hydrogen prospect. The country is also a potential green hydrogen exporter given its vast land area and solar irradiation. Despite strong natural resource endowments, high unemployment and inequality remain persistent structural challenges. Namibia is a politically stable democracy with sound institutions for its region."
+  },
+ 
+  ghana: {
+    name: "Ghana", flag: "🇬🇭", region: "West Africa",
+    status: "expanding", statusLabel: "Recovering",
+    gdp: "$76B", gdpDelta: "+5.9%", gdpPos: true,
+    inflation: "18.4%", inflationDelta: "-35%", inflationPos: true,
+    unemployment: "3.6%", unemploymentDelta: "-0.3%", unemploymentPos: true,
+    tradeBalance: "+$2B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-2.4%", caPos: false,
+    fdi: "+$2.8B",
+    topExports: ["Gold", "Cocoa", "Petroleum", "Timber"],
+    topPartners: [
+      { name: "UAE",   share: 26 },
+      { name: "China", share: 14 },
+      { name: "India", share: 9  },
+      { name: "EU",    share: 15 }
+    ],
+    gdpHistory: [52,55,58,55,48,42,38,45,55,62,66,68],
+    summary: "Ghana is executing one of the most dramatic economic recoveries in recent African history. After defaulting on its external debt in 2022 — the first African sovereign default since Zambia in 2020 — and suffering inflation exceeding 50% and a currency collapse, Ghana secured IMF support and completed a landmark domestic debt restructuring in 2024. GDP growth rebounded strongly to 5.9% in 2025, fuelled by oil production, gold exports, and recovering consumer confidence. Inflation, while still elevated at 18.4%, has fallen sharply from its peak. The cedi has stabilised. Ghana's success in navigating its crisis is closely watched across West Africa as a model for debt resolution and fiscal reform."
+  },
+ 
+  croatia: {
+    name: "Croatia", flag: "🇭🇷", region: "Southern Europe",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$85B", gdpDelta: "+3.2%", gdpPos: true,
+    inflation: "3.4%", inflationDelta: "-2.8%", inflationPos: true,
+    unemployment: "5.5%", unemploymentDelta: "-0.4%", unemploymentPos: true,
+    tradeBalance: "-$7B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "+2.8%", caPos: true,
+    fdi: "+$2B",
+    topExports: ["Petroleum Products", "Machinery", "Pharmaceuticals", "Ships"],
+    topPartners: [
+      { name: "Italy",     share: 14 },
+      { name: "Germany",   share: 12 },
+      { name: "Slovenia",  share: 10 },
+      { name: "Bosnia",    share: 8  }
+    ],
+    gdpHistory: [48,45,40,50,55,58,60,62,64,66,67,68],
+    summary: "Croatia is a eurozone and Schengen Area member since 2023, marking a significant milestone in its European integration. Growth of 3.2% in 2025 is underpinned by record tourism revenues — Croatia's Adriatic coastline attracts over 20 million visitors annually — alongside strong EU fund absorption and construction activity. Inflation has declined sharply from 2022–23 peaks. The current account surplus is bolstered by tourism services receipts. Unemployment has fallen steadily, though labour shortages in tourism and construction are becoming a constraint, partly addressed by migrant worker inflows. Croatia's EU membership has significantly improved its investment climate and credit rating trajectory."
+  },
+ 
+  bhutan: {
+    name: "Bhutan", flag: "🇧🇹", region: "South Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$3.0B", gdpDelta: "+5.0%", gdpPos: true,
+    inflation: "4.0%", inflationDelta: "-1.5%", inflationPos: true,
+    unemployment: "5.2%", unemploymentDelta: "-0.4%", unemploymentPos: true,
+    tradeBalance: "-$0.9B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-23.0%", caPos: false,
+    fdi: "+$0.1B",
+    topExports: ["Hydroelectric Power", "Ferro-silicon", "Cement", "Cardamom"],
+    topPartners: [
+      { name: "India", share: 85 },
+      { name: "Bangladesh", share: 7 },
+      { name: "Nepal",  share: 3  },
+      { name: "Japan",  share: 2  }
+    ],
+    gdpHistory: [30,32,34,36,33,38,40,42,44,45,47,49],
+    summary: "Bhutan is a small Himalayan kingdom pursuing a unique development philosophy centred on Gross National Happiness rather than GDP maximisation — measuring progress through well-being, cultural preservation, environmental sustainability, and good governance alongside economic growth. Hydropower exported to India is the dominant revenue source, accounting for over 80% of export earnings. The economy is heavily dependent on India — for trade, currency peg, and development assistance — making it one of the world's most asymmetric bilateral economic relationships. An unprecedented brain-drain emigration wave, particularly to Australia and the Gulf, has become a pressing policy concern. Bhutan remains one of the world's most pristine environments, protected by a 'high value, low impact' tourism model with strict visitor limits."
 };
