@@ -1520,6 +1520,6 @@ const COUNTRIES = {
     ],
     gdpHistory: [38,39,40,41,40,42,43,44,44,45,46,47],
     summary: "Cameroon is Central Africa's largest economy and is often described as 'Africa in miniature' for its geographic and cultural diversity — from tropical rainforests and oil-producing coastal zones to the Sahel in the north. GDP growth of 4.2% in 2025 is supported by oil revenues, agricultural exports of cocoa and timber, and infrastructure investment. However, Cameroon faces serious security challenges: the Anglophone separatist conflict in its North West and South West regions has displaced hundreds of thousands and disrupted the economy in those areas, while Boko Haram activity persists in the Far North. France remains a key economic and institutional partner. Public debt is manageable and the IMF has maintained an Extended Credit Facility supporting fiscal reforms and debt sustainability."
-  },
+  }
   
  };
