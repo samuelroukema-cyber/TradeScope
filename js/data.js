@@ -163,7 +163,7 @@ const COUNTRIES = {
   },
 
   mexico: {
-    name: "Mexico", flag: "🇲🇽", region: "Latin America",
+    name: "Mexico", flag: "🇲🇽", region: "North America",
     status: "mixed", statusLabel: "Mixed Signals",
     gdp: "$1.4T", gdpDelta: "+1.8%", gdpPos: true,
     inflation: "4.2%", inflationDelta: "-1.5%", inflationPos: true,
