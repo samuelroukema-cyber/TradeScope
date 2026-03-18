@@ -402,5 +402,205 @@ const COUNTRIES = {
     summary: "Argentina is undergoing a radical economic restructuring under President Milei's libertarian reform program, which achieved the first trade surplus since 2006 and dramatically slashed the fiscal deficit. Inflation, while still extreme at ~120%, has fallen sharply from a 2024 peak exceeding 200%. Oil and gas production from the Vaca Muerta shale formation and growing lithium exports are structural tailwinds. However, the social cost of austerity is significant, and long-term success depends on restoring market confidence and rebuilding foreign reserves."
   },
 
+  chile: {
+    name: "Chile", flag: "🇨🇱", region: "South America",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$330B", gdpDelta: "+2.4%", gdpPos: true,
+    inflation: "4.5%", inflationDelta: "-7.5%", inflationPos: true,
+    unemployment: "8.0%", unemploymentDelta: "-0.5%", unemploymentPos: true,
+    tradeBalance: "+$16B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-3.2%", caPos: false,
+    fdi: "+$18B",
+    topExports: ["Copper", "Lithium", "Salmon & Trout", "Fruit"],
+    topPartners: [
+      { name: "China",  share: 39 },
+      { name: "USA",    share: 15 },
+      { name: "Japan",  share: 8  },
+      { name: "Brazil", share: 6  }
+    ],
+    gdpHistory: [58,55,60,64,62,66,68,65,63,66,68,70],
+    summary: "Chile is the world's largest copper producer — accounting for roughly a quarter of global supply — and the second-largest lithium producer, positioning it centrally in global clean energy supply chains. GDP growth of 2.4% in 2025 was driven by resilient domestic demand, mining investment, and strong fruit exports. Inflation fell sharply from a 2023 peak of 12% and is converging toward the 3% central bank target. A new conservative government taking office in 2026 has signalled significant fiscal consolidation and greater private-sector involvement in the lithium industry."
+  },
+ 
+  costarica: {
+    name: "Costa Rica", flag: "🇨🇷", region: "Central America",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$102B", gdpDelta: "+3.8%", gdpPos: true,
+    inflation: "1.2%", inflationDelta: "-0.9%", inflationPos: true,
+    unemployment: "7.8%", unemploymentDelta: "-0.6%", unemploymentPos: true,
+    tradeBalance: "+$8B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-2.1%", caPos: false,
+    fdi: "+$4B",
+    topExports: ["Medical Devices", "Pineapples", "Bananas", "Electronics"],
+    topPartners: [
+      { name: "USA",    share: 38 },
+      { name: "EU",     share: 18 },
+      { name: "China",  share: 6  },
+      { name: "Panama", share: 4  }
+    ],
+    gdpHistory: [48,50,53,56,54,58,61,63,65,67,69,71],
+    summary: "Costa Rica is a remarkable development success story in Central America, having transformed from a banana-and-coffee economy into a high-tech medical device and services exporter. It is now the world's largest per-capita exporter of medical devices. Strong FDI from U.S. multinationals in life sciences and semiconductors underpins the export base. Inflation is among the lowest in the Americas. Fiscal consolidation has significantly reduced the debt-to-GDP ratio from dangerous levels in 2020. Tourism is a major growth driver alongside the tech sector."
+  },
+ 
+  thailand: {
+    name: "Thailand", flag: "🇹🇭", region: "Southeast Asia",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$575B", gdpDelta: "+2.6%", gdpPos: true,
+    inflation: "1.4%", inflationDelta: "+0.6%", inflationPos: false,
+    unemployment: "1.1%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "+$35B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+2.8%", caPos: true,
+    fdi: "+$12B",
+    topExports: ["Electronics", "Vehicles", "Machinery", "Rubber"],
+    topPartners: [
+      { name: "USA",   share: 18 },
+      { name: "China", share: 14 },
+      { name: "Japan", share: 10 },
+      { name: "ASEAN", share: 22 }
+    ],
+    gdpHistory: [55,52,58,61,59,63,65,64,67,68,67,69],
+    summary: "Thailand's economy is growing at a modest pace, underperforming regional peers despite strong tourism recovery and electronics exports. Structural headwinds include an ageing population, high household debt, and the automotive sector's slow transition from combustion to electric vehicles — a risk as Chinese EV makers displace traditional Japanese manufacturers in Thai factories. Tourism contributed significantly to 2025 growth. The OECD projects surpluses to persist as the current account strengthens, driven by services and goods exports."
+  },
+ 
+  turkey: {
+    name: "Turkey", flag: "🇹🇷", region: "Central Asia",
+    status: "mixed", statusLabel: "Rebalancing",
+    gdp: "$1.1T", gdpDelta: "+3.2%", gdpPos: true,
+    inflation: "42%", inflationDelta: "-28%", inflationPos: true,
+    unemployment: "8.6%", unemploymentDelta: "-0.8%", unemploymentPos: true,
+    tradeBalance: "-$110B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-1.8%", caPos: false,
+    fdi: "+$11B",
+    topExports: ["Vehicles", "Machinery", "Textiles", "Steel"],
+    topPartners: [
+      { name: "Germany", share: 9  },
+      { name: "USA",     share: 7  },
+      { name: "UK",      share: 6  },
+      { name: "Iraq",    share: 5  }
+    ],
+    gdpHistory: [40,38,45,50,48,44,40,45,52,58,62,66],
+    summary: "Turkey is in a painful but necessary macroeconomic stabilisation after years of unorthodox low-rate policy drove inflation above 80%. The return to conventional monetary policy — with interest rates raised sharply to 45% and then gradually cut as inflation fell — is working: inflation declined from over 70% in 2024 to around 42% in 2025, with the OECD projecting further decline. Growth remains positive at 3.2%, supported by manufacturing exports and tourism. The current account deficit, while still significant, is narrowing. Geopolitical positioning between NATO and Russia gives Turkey outsized strategic leverage."
+  },
+ 
+  russia: {
+    name: "Russia", flag: "🇷🇺", region: "Eastern Europe",
+    status: "mixed", statusLabel: "War Economy",
+    gdp: "$2.1T", gdpDelta: "+2.8%", gdpPos: true,
+    inflation: "9.5%", inflationDelta: "+2.1%", inflationPos: false,
+    unemployment: "2.4%", unemploymentDelta: "-0.3%", unemploymentPos: true,
+    tradeBalance: "+$145B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+4.0%", caPos: true,
+    fdi: "-$13B", 
+    topExports: ["Petroleum", "Natural Gas", "Metals", "Wheat"],
+    topPartners: [
+      { name: "China",  share: 33 },
+      { name: "India",  share: 13 },
+      { name: "Turkey", share: 7  },
+      { name: "UAE",    share: 4  }
+    ],
+    gdpHistory: [60,58,55,62,65,60,58,52,55,60,62,64],
+    summary: "Russia's economy has defied Western expectations of collapse following 2022 sanctions, largely due to redirected energy exports to China, India, and the Middle East, and a massive fiscal stimulus through war-related defence spending. However, the costs are accumulating: inflation has risen to nearly 10% as labour shortages tighten and military expenditure crowds out civilian investment. The ruble has depreciated significantly. Western sanctions have curtailed access to technology and financial markets. Long-term structural damage from capital flight, brain drain, and severed European trade ties is expected to compound over time."
+  },
+ 
+  netherlands: {
+    name: "Netherlands", flag: "🇳🇱", region: "Western Europe",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$1.1T", gdpDelta: "+1.7%", gdpPos: true,
+    inflation: "2.7%", inflationDelta: "-1.1%", inflationPos: true,
+    unemployment: "3.7%", unemploymentDelta: "+0.2%", unemploymentPos: false,
+    tradeBalance: "+$98B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+9.7%", caPos: true,
+    fdi: "+$84B",
+    topExports: ["Machinery", "Petroleum Products", "Chemicals", "Food"],
+    topPartners: [
+      { name: "Germany", share: 24 },
+      { name: "Belgium", share: 12 },
+      { name: "UK",      share: 9  },
+      { name: "France",  share: 8  }
+    ],
+    gdpHistory: [65,63,68,72,74,71,73,75,74,76,77,78],
+    summary: "The Netherlands punches far above its weight as a global trade hub, hosting the Port of Rotterdam — Europe's largest — and functioning as the EU's logistics and distribution gateway. A large current account surplus reflects significant multinational corporate profits booked in the country. ASML, the world's sole producer of extreme ultraviolet lithography machines essential for advanced chip manufacturing, is a Dutch firm of exceptional global strategic importance. The economy is stable and services-oriented, though housing affordability and energy transition costs present domestic policy challenges."
+  },
+ 
+  sweden: {
+    name: "Sweden", flag: "🇸🇪", region: "Northern Europe",
+    status: "stable", statusLabel: "Recovering",
+    gdp: "$597B", gdpDelta: "+1.8%", gdpPos: true,
+    inflation: "1.8%", inflationDelta: "-3.2%", inflationPos: true,
+    unemployment: "8.8%", unemploymentDelta: "+0.6%", unemploymentPos: false,
+    tradeBalance: "+$22B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+6.2%", caPos: true,
+    fdi: "+$28B",
+    topExports: ["Machinery", "Vehicles", "Pharmaceuticals", "Paper"],
+    topPartners: [
+      { name: "Germany",     share: 11 },
+      { name: "Norway",      share: 10 },
+      { name: "USA",         share: 9  },
+      { name: "Finland",     share: 7  }
+    ],
+    gdpHistory: [70,68,65,62,60,58,57,59,61,63,65,67],
+    summary: "Sweden experienced a technical recession in 2023–24 driven by a sharp correction in its overvalued housing market and high household debt levels. Recovery is underway in 2025, supported by the Riksbank's aggressive rate-cutting cycle that brought inflation from over 10% to below 2%. The OECD projects a persistent current account surplus. Sweden's defence spending has surged following NATO accession. The economy is innovation-driven, home to major multinationals in telecommunications, manufacturing, and pharmaceuticals, with a tradition of export competitiveness."
+  },
+ 
+  portugal: {
+    name: "Portugal", flag: "🇵🇹", region: "Southern Europe",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$287B", gdpDelta: "+2.8%", gdpPos: true,
+    inflation: "2.2%", inflationDelta: "-1.3%", inflationPos: true,
+    unemployment: "6.4%", unemploymentDelta: "-0.5%", unemploymentPos: true,
+    tradeBalance: "-$18B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "+1.5%", caPos: true,
+    fdi: "+$9B",
+    topExports: ["Vehicles", "Machinery", "Oil Products", "Wine & Cork"],
+    topPartners: [
+      { name: "Spain",   share: 26 },
+      { name: "France",  share: 12 },
+      { name: "Germany", share: 11 },
+      { name: "USA",     share: 6  }
+    ],
+    gdpHistory: [45,42,48,52,55,57,59,61,63,65,67,69],
+    summary: "Portugal is one of the eurozone's stronger growth performers, expanding at nearly 3% in 2025. Tourism remains a pillar of the economy, with the country attracting record visitor numbers to Lisbon and Porto. A booming technology and startup scene, driven partly by the NHR tax incentive that attracted digital workers and entrepreneurs, has transformed Lisbon's economic profile. EU cohesion funds are supporting infrastructure modernisation. After years of painful austerity following the 2010–14 sovereign debt crisis, Portugal has rebuilt fiscal credibility with one of the eurozone's lowest debt trajectories."
+  },
+ 
+  egypt: {
+    name: "Egypt", flag: "🇪🇬", region: "North Africa",
+    status: "mixed", statusLabel: "Stabilising",
+    gdp: "$347B", gdpDelta: "+3.8%", gdpPos: true,
+    inflation: "24%", inflationDelta: "-16%", inflationPos: true,
+    unemployment: "6.9%", unemploymentDelta: "-0.4%", unemploymentPos: true,
+    tradeBalance: "-$42B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-4.5%", caPos: false,
+    fdi: "+$10B",
+    topExports: ["Petroleum Products", "Natural Gas", "Textiles", "Fertilisers"],
+    topPartners: [
+      { name: "USA",   share: 8  },
+      { name: "Italy", share: 7  },
+      { name: "Saudi Arabia", share: 6 },
+      { name: "Turkey", share: 5 }
+    ],
+    gdpHistory: [42,45,48,50,48,44,40,38,42,47,52,55],
+    summary: "Egypt is stabilising after a severe foreign currency crisis in 2023–24 that required a $12 billion IMF bailout and forced a sharp devaluation of the Egyptian pound. Inflation peaked above 40% and has since declined toward 24% in 2025. An IMF-backed reform programme is driving fiscal consolidation and deregulation. Suez Canal revenues — a major source of foreign exchange — have been disrupted by Red Sea shipping tensions but are recovering. The economy's structural challenges include a large youth unemployment problem, heavy energy subsidies, and an oversized public sector. Tourism and Gulf investment inflows are key stabilisers."
+  },
+ 
+  indonesia: {
+    name: "Indonesia", flag: "🇮🇩", region: "Southeast Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$1.5T", gdpDelta: "+4.8%", gdpPos: true,
+    inflation: "2.8%", inflationDelta: "-0.6%", inflationPos: true,
+    unemployment: "4.9%", unemploymentDelta: "-0.3%", unemploymentPos: true,
+    tradeBalance: "+$37B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-0.7%", caPos: false,
+    fdi: "+$22B",
+    topExports: ["Palm Oil", "Coal", "Nickel", "Electronics"],
+    topPartners: [
+      { name: "China",      share: 22 },
+      { name: "USA",        share: 10 },
+      { name: "Japan",      share: 8  },
+      { name: "Singapore",  share: 6  }
+    ],
+    gdpHistory: [55,57,60,63,61,65,68,70,72,74,76,78],
+    summary: "Indonesia is Southeast Asia's largest economy and a growing strategic player in global supply chains. Its dominant nickel reserves — critical for EV batteries — have made it a target of major investment from both Chinese and Western battery manufacturers. Indonesia has leveraged this position to pursue a domestic processing requirement, forcing value-added refining onshore. Growth at nearly 5% is driven by commodity exports, rising domestic consumption, and infrastructure investment. The new Prabowo administration has signalled continuity on economic policy while expanding social spending."
+  },
+
 
 };
