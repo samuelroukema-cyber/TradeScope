@@ -643,7 +643,7 @@ const COUNTRIES = {
   },
  
   kenya: {
-    name: "Kenya", flag: "🇰🇪", region: "Sub-Saharan Africa",
+    name: "Kenya", flag: "🇰🇪", region: "East Africa",
     status: "expanding", statusLabel: "Expanding",
     gdp: "$118B", gdpDelta: "+5.0%", gdpPos: true,
     inflation: "4.1%", inflationDelta: "-1.6%", inflationPos: true,
@@ -883,7 +883,7 @@ const COUNTRIES = {
   },
  
   tanzania: {
-    name: "Tanzania", flag: "🇹🇿", region: "Sub-Saharan Africa",
+    name: "Tanzania", flag: "🇹🇿", region: "East Africa",
     status: "expanding", statusLabel: "Expanding",
     gdp: "$80B", gdpDelta: "+5.6%", gdpPos: true,
     inflation: "3.3%", inflationDelta: "-0.1%", inflationPos: true,
@@ -900,6 +900,226 @@ const COUNTRIES = {
     ],
     gdpHistory: [40,42,43,46,44,48,50,52,53,55,57,59],
     summary: "Tanzania is one of Africa's most consistent growth stories, expanding at 5.6% in 2025 driven by agriculture, infrastructure investment, and natural resource development. Inflation is among the lowest in East Africa at 3.3%, demonstrating effective monetary management. Gold is the dominant export, followed by agricultural commodities. A major natural gas find off the coast, with reserves exceeding 57 trillion cubic feet, positions Tanzania as a future LNG exporter — though infrastructure development has been slow. Tourism centred on Serengeti, Kilimanjaro, and Zanzibar is a growing economic pillar. The country benefits from political stability relative to regional peers."
+  },
+
+  srilanka: {
+    name: "Sri Lanka", flag: "🇱🇰", region: "South Asia",
+    status: "expanding", statusLabel: "Recovering",
+    gdp: "$97B", gdpDelta: "+4.8%", gdpPos: true,
+    inflation: "4.0%", inflationDelta: "-65%", inflationPos: true,
+    unemployment: "4.6%", unemploymentDelta: "-0.4%", unemploymentPos: true,
+    tradeBalance: "-$6B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "+0.8%", caPos: true,
+    fdi: "+$1.2B",
+    topExports: ["Textiles & Apparel", "Tea", "Rubber", "Gems & Jewellery"],
+    topPartners: [
+      { name: "USA",          share: 24 },
+      { name: "UK",           share: 8  },
+      { name: "India",        share: 7  },
+      { name: "Germany",      share: 5  }
+    ],
+    gdpHistory: [60,55,45,30,25,32,40,50,58,62,65,68],
+    summary: "Sri Lanka achieved one of the most remarkable economic recoveries in recent memory after its catastrophic 2022 sovereign debt default — the worst in the country's post-independence history — wiped out foreign reserves and triggered hyperinflation exceeding 69%. IMF-backed reforms under an Extended Fund Facility stabilised the currency, rebuilt reserves, and restored fiscal discipline. Real GDP rebounded 5% in 2024 and grew 4.8% in the first three quarters of 2025 before a cyclone struck in late 2025, creating new near-term headwinds. External debt restructuring is nearly complete. Tourism and remittances are key drivers of the current account surplus, which is a notable achievement for a country that was in default just three years ago."
+  },
+ 
+  saudiarabia: {
+    name: "Saudi Arabia", flag: "🇸🇦", region: "Middle East",
+    status: "expanding", statusLabel: "Diversifying",
+    gdp: "$1.1T", gdpDelta: "+2.6%", gdpPos: true,
+    inflation: "2.1%", inflationDelta: "+0.1%", inflationPos: false,
+    unemployment: "6.3%", unemploymentDelta: "-1.3%", unemploymentPos: true,
+    tradeBalance: "+$98B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-0.5%", caPos: false,
+    fdi: "+$29B",
+    topExports: ["Crude Oil", "Petrochemicals", "Plastics", "Metals"],
+    topPartners: [
+      { name: "China",  share: 13 },
+      { name: "Japan",  share: 12 },
+      { name: "India",  share: 11 },
+      { name: "South Korea", share: 9 }
+    ],
+    gdpHistory: [70,65,72,78,74,76,75,78,80,79,80,82],
+    summary: "Saudi Arabia is executing the most ambitious economic transformation in its history under Vision 2030, seeking to reduce dependence on oil revenues through diversification into tourism, entertainment, financial services, and manufacturing. Non-oil GDP grew 4.5% in 2024, driven by retail, hospitality, and construction, while OPEC+ production cuts constrained oil output and moderated overall growth. Unemployment among Saudi nationals hit a record low, with youth and female unemployment both halved over four years — a significant social and economic achievement. The current account shifted into deficit as investment-linked imports surge. Mega-projects including NEOM and Red Sea tourism developments represent extraordinary capital commitments to the diversification agenda."
+  },
+ 
+  malaysia: {
+    name: "Malaysia", flag: "🇲🇾", region: "Southeast Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$430B", gdpDelta: "+4.8%", gdpPos: true,
+    inflation: "1.8%", inflationDelta: "-0.3%", inflationPos: true,
+    unemployment: "3.3%", unemploymentDelta: "-0.1%", unemploymentPos: true,
+    tradeBalance: "+$42B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+2.6%", caPos: true,
+    fdi: "+$17B",
+    topExports: ["Electronics", "Palm Oil", "Petroleum", "Rubber"],
+    topPartners: [
+      { name: "China",      share: 14 },
+      { name: "Singapore",  share: 13 },
+      { name: "USA",        share: 11 },
+      { name: "Japan",      share: 7  }
+    ],
+    gdpHistory: [58,55,60,63,58,65,68,70,72,74,75,77],
+    summary: "Malaysia is a significant beneficiary of global supply chain restructuring, attracting record FDI in semiconductors, data centres, and electronics manufacturing as companies diversify away from China. Growth of 4.8% in 2025 is among the strongest in ASEAN. Inflation is remarkably well-controlled at 1.8%, aided by government fuel subsidies and competitive domestic pricing. The electronics and electrical sector alone accounts for over 40% of exports. Malaysia is also a major palm oil producer and LNG exporter. The Ringgit has recovered from multi-decade lows seen in 2024, reflecting improved investor confidence and narrowing rate differentials with the US dollar."
+  },
+ 
+  uruguay: {
+    name: "Uruguay", flag: "🇺🇾", region: "South America",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$77B", gdpDelta: "+3.2%", gdpPos: true,
+    inflation: "5.2%", inflationDelta: "-2.3%", inflationPos: true,
+    unemployment: "7.8%", unemploymentDelta: "-0.4%", unemploymentPos: true,
+    tradeBalance: "+$2B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-1.2%", caPos: false,
+    fdi: "+$3B",
+    topExports: ["Beef", "Soybeans", "Cellulose", "Dairy"],
+    topPartners: [
+      { name: "China",    share: 29 },
+      { name: "Brazil",   share: 14 },
+      { name: "USA",      share: 7  },
+      { name: "Argentina", share: 6 }
+    ],
+    gdpHistory: [58,55,60,62,60,63,65,66,68,69,70,72],
+    summary: "Uruguay is South America's most stable and transparent economy — it holds investment-grade sovereign credit ratings from all three major agencies, a distinction shared by very few Latin American nations. Strong institutions, low corruption, and prudent fiscal management underpin the country's resilience. Beef, soybeans, and cellulose are the main exports, with China now the dominant trade partner. A new UPM pulp mill has significantly boosted cellulose export capacity. Inflation has declined substantially from 2022 peaks toward the central bank target. Uruguay's small size and openness make it sensitive to Argentine and Brazilian economic volatility, its two largest neighbours."
+  },
+ 
+  czechrepublic: {
+    name: "Czech Republic", flag: "🇨🇿", region: "Western Europe",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$352B", gdpDelta: "+2.8%", gdpPos: true,
+    inflation: "2.6%", inflationDelta: "-9.4%", inflationPos: true,
+    unemployment: "2.6%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "+$12B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+0.8%", caPos: true,
+    fdi: "+$9B",
+    topExports: ["Vehicles", "Machinery", "Electronics", "Pharmaceuticals"],
+    topPartners: [
+      { name: "Germany", share: 32 },
+      { name: "Slovakia", share: 8 },
+      { name: "Poland",   share: 7 },
+      { name: "France",   share: 5 }
+    ],
+    gdpHistory: [55,50,56,60,62,58,55,58,62,65,67,69],
+    summary: "The Czech Republic is one of Central Europe's most industrialised economies, deeply integrated into German and European automotive supply chains. Volkswagen, Skoda, and other automakers anchor the manufacturing base. After a painful inflation shock that peaked above 17% in 2022 — the highest in the EU — disinflation has been rapid and growth has rebounded to 2.8%. Unemployment at 2.6% is among the lowest in the EU. The economy faces a structural challenge: the automotive transition to EVs threatens its existing combustion engine component factories. The Czech koruna is one of Europe's more stable currencies, and the country maintains sound public finances."
+  },
+ 
+  ireland: {
+    name: "Ireland", flag: "🇮🇪", region: "Northern Europe",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$594B", gdpDelta: "+3.5%", gdpPos: true,
+    inflation: "1.8%", inflationDelta: "-2.4%", inflationPos: true,
+    unemployment: "4.3%", unemploymentDelta: "-0.2%", unemploymentPos: true,
+    tradeBalance: "+$112B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+10.6%", caPos: true,
+    fdi: "+$48B",
+    topExports: ["Pharmaceuticals", "Medical Devices", "Software", "Chemicals"],
+    topPartners: [
+      { name: "USA",     share: 28 },
+      { name: "Belgium", share: 11 },
+      { name: "Germany", share: 8  },
+      { name: "UK",      share: 7  }
+    ],
+    gdpHistory: [65,62,70,75,78,80,82,84,85,86,87,88],
+    summary: "Ireland's headline GDP figures are heavily distorted by the activities of multinational corporations — particularly U.S. pharma and tech giants including Apple, Google, Pfizer, and Meta — that book profits and assets in Ireland due to favourable tax arrangements. Modified GNI, a better measure of the domestic economy, is roughly half of GDP. That said, underlying domestic growth is genuinely strong, fuelled by employment, construction, and tourism. The U.S.-Ireland trade deficit of $114B in 2025 has made Ireland a focus of U.S. tariff discussions. Ireland's enormous current account surplus reflects multinational profit repatriation rather than true trade competitiveness."
+  },
+ 
+  botswana: {
+    name: "Botswana", flag: "🇧🇼", region: "Southern Africa",
+    status: "contracting", statusLabel: "Under Pressure",
+    gdp: "$20B", gdpDelta: "-3.0%", gdpPos: false,
+    inflation: "2.2%", inflationDelta: "-2.1%", inflationPos: true,
+    unemployment: "21.0%", unemploymentDelta: "+2.0%", unemploymentPos: false,
+    tradeBalance: "-$2B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-6.0%", caPos: false,
+    fdi: "+$0.5B",
+    topExports: ["Diamonds", "Copper & Nickel", "Beef", "Tourism Services"],
+    topPartners: [
+      { name: "EU",           share: 72 },
+      { name: "South Africa", share: 11 },
+      { name: "UAE",          share: 4  },
+      { name: "India",        share: 3  }
+    ],
+    gdpHistory: [65,62,68,70,72,70,68,65,60,55,48,42],
+    summary: "Botswana is facing its most serious economic challenge in decades, driven by a sharp collapse in diamond demand as lab-grown diamonds displace natural stones globally. Diamonds account for around 80% of export earnings and a third of GDP, making this structural shift an existential economic threat. The IMF projects a 3% GDP contraction and an 11% fiscal deficit in 2025. Botswana has nonetheless earned a reputation as one of Africa's best-governed economies — it holds investment-grade credit ratings alongside Mauritius and Morocco, and maintains strong institutions. Government-led diversification into tourism, financial services, and manufacturing is urgent but faces a long timeline. Despite current pressures, Botswana's democratic track record and institutional quality are real strengths."
+  },
+ 
+  ethiopia: {
+    name: "Ethiopia", flag: "🇪🇹", region: "East Africa",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$117B", gdpDelta: "+6.8%", gdpPos: true,
+    inflation: "22%", inflationDelta: "-8%", inflationPos: true,
+    unemployment: "3.5%", unemploymentDelta: "-0.3%", unemploymentPos: true,
+    tradeBalance: "-$16B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-4.8%", caPos: false,
+    fdi: "+$3.5B",
+    topExports: ["Coffee", "Gold", "Oilseeds", "Leather"],
+    topPartners: [
+      { name: "China",  share: 17 },
+      { name: "USA",    share: 10 },
+      { name: "UAE",    share: 8  },
+      { name: "Saudi Arabia", share: 6 }
+    ],
+    gdpHistory: [30,32,35,38,40,42,45,48,50,52,54,57],
+    summary: "Ethiopia is Africa's second most populous nation and one of the continent's fastest-growing economies, expanding nearly 7% in 2025. The government's industrial park strategy has attracted significant Chinese and other foreign investment in textiles and manufacturing. The Grand Ethiopian Renaissance Dam (GERD) on the Blue Nile is now operational and will significantly boost domestic electricity generation. However, serious challenges persist: inflation remains elevated at 22%, a post-civil war reconstruction burden is ongoing, and the Tigray conflict's economic scars are still healing. Foreign exchange shortages constrain imports. Ethiopia's enormous demographic base — 130 million people — represents both a development challenge and a long-term economic opportunity."
+  },
+ 
+  kazakhstan: {
+    name: "Kazakhstan", flag: "🇰🇿", region: "Central Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$272B", gdpDelta: "+4.8%", gdpPos: true,
+    inflation: "8.6%", inflationDelta: "-5.4%", inflationPos: true,
+    unemployment: "4.7%", unemploymentDelta: "-0.2%", unemploymentPos: true,
+    tradeBalance: "+$22B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+1.5%", caPos: true,
+    fdi: "+$28B",
+    topExports: ["Crude Oil", "Copper", "Uranium", "Wheat"],
+    topPartners: [
+      { name: "China",   share: 16 },
+      { name: "Italy",   share: 12 },
+      { name: "Russia",  share: 10 },
+      { name: "Netherlands", share: 8 }
+    ],
+    gdpHistory: [55,52,58,62,60,63,65,67,68,70,72,74],
+    summary: "Kazakhstan is Central Asia's largest economy and a major energy and minerals exporter, holding the world's largest uranium reserves and significant oil and gas resources. GDP growth of 4.8% in 2025 is supported by high commodity prices and strong non-oil sector development. The country is strategically positioned as a transit corridor between China and Europe via the Trans-Caspian route, gaining significance as Russian sanctions have redirected trade flows. Inflation has been brought down sharply from 2022 peaks through aggressive monetary tightening. Kazakhstan is also deepening economic relations with the Gulf, EU, and China simultaneously — a careful balancing act as Russia's geopolitical isolation creates both risks and opportunities."
+  },
+ 
+  taiwan: {
+    name: "Taiwan", flag: "🇹🇼", region: "East Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$756B", gdpDelta: "+4.3%", gdpPos: true,
+    inflation: "2.1%", inflationDelta: "+0.3%", inflationPos: false,
+    unemployment: "3.4%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "+$147B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+14.2%", caPos: true,
+    fdi: "+$12B",
+    topExports: ["Semiconductors", "Electronics", "Machinery", "Petrochemicals"],
+    topPartners: [
+      { name: "China",       share: 22 },
+      { name: "USA",         share: 15 },
+      { name: "Japan",       share: 7  },
+      { name: "Singapore",   share: 6  }
+    ],
+    gdpHistory: [60,62,68,75,72,78,82,80,85,86,87,88],
+    summary: "Taiwan occupies one of the most strategically significant positions in the global economy: it produces the overwhelming majority of the world's most advanced semiconductors through TSMC, making it indispensable to the global electronics supply chain and a critical variable in U.S.-China geopolitical competition. The U.S. ran a $146.8 billion trade deficit with Taiwan in 2025, driven almost entirely by chip imports. GDP growth of 4.3% is fuelled by surging AI-related semiconductor demand. Taiwan's extraordinary current account surplus of 14.2% of GDP reflects its export dominance. Cross-strait tensions with China represent the defining geopolitical risk for the global technology sector — TSMC's fabs cannot be quickly replicated elsewhere."
+  },
+ 
+  algeria: {
+    name: "Algeria", flag: "🇩🇿", region: "North Africa",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$270B", gdpDelta: "+3.8%", gdpPos: true,
+    inflation: "4.2%", inflationDelta: "-1.6%", inflationPos: true,
+    unemployment: "11.4%", unemploymentDelta: "-0.6%", unemploymentPos: true,
+    tradeBalance: "+$14B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+2.1%", caPos: true,
+    fdi: "+$1.5B",
+    topExports: ["Natural Gas", "Crude Oil", "Petroleum Products", "Fertilisers"],
+    topPartners: [
+      { name: "Italy",   share: 17 },
+      { name: "Spain",   share: 13 },
+      { name: "France",  share: 11 },
+      { name: "Germany", share: 7  }
+    ],
+    gdpHistory: [50,48,52,55,53,56,58,57,59,60,62,63],
+    summary: "Algeria is Africa's largest country by area and a major natural gas supplier to Europe, a position significantly elevated by Russia's invasion of Ukraine which prompted EU countries to urgently diversify away from Russian gas. Italy is Algeria's top export destination and the two countries signed a major energy partnership. Algeria holds over $90 billion in foreign reserves, providing significant macroeconomic stability. However, the economy remains heavily dependent on hydrocarbons which account for around 95% of export earnings, and economic diversification has been slow. Private sector development is constrained by bureaucratic barriers and limited openness to foreign investment outside the energy sector. Youth unemployment and a large informal economy are structural challenges."
   },
 
 };
