@@ -1320,5 +1320,206 @@ const COUNTRIES = {
     ],
     gdpHistory: [30,32,34,36,33,38,40,42,44,45,47,49],
     summary: "Bhutan is a small Himalayan kingdom pursuing a unique development philosophy centred on Gross National Happiness rather than GDP maximisation — measuring progress through well-being, cultural preservation, environmental sustainability, and good governance alongside economic growth. Hydropower exported to India is the dominant revenue source, accounting for over 80% of export earnings. The economy is heavily dependent on India — for trade, currency peg, and development assistance — making it one of the world's most asymmetric bilateral economic relationships. An unprecedented brain-drain emigration wave, particularly to Australia and the Gulf, has become a pressing policy concern. Bhutan remains one of the world's most pristine environments, protected by a 'high value, low impact' tourism model with strict visitor limits."
-  }
+  },
+
+  iceland: {
+    name: "Iceland", flag: "🇮🇸", region: "Northern Europe",
+    status: "stable", statusLabel: "Recovering",
+    gdp: "$35B", gdpDelta: "+1.6%", gdpPos: true,
+    inflation: "4.0%", inflationDelta: "-6.0%", inflationPos: true,
+    unemployment: "4.1%", unemploymentDelta: "+0.6%", unemploymentPos: false,
+    tradeBalance: "+$1B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-2.1%", caPos: false,
+    fdi: "+$1.5B",
+    topExports: ["Fish & Seafood", "Aluminium", "Pharmaceuticals", "Renewable Energy"],
+    topPartners: [
+      { name: "Netherlands", share: 25 },
+      { name: "UK",          share: 17 },
+      { name: "Germany",     share: 10 },
+      { name: "USA",         share: 8  }
+    ],
+    gdpHistory: [65,60,68,72,75,70,65,62,60,62,63,64],
+    summary: "Iceland's economy contracted 0.5% in 2024 after a disappointing fishing season and constraints on aluminium production, but growth has rebounded to 1.6% in 2025 driven by private consumption and recovering exports. Iceland topped the Human Development Index in 2025 — remarkable for a nation of just 380,000 people. The central bank cut rates five times from 9.25% to 7.5% by mid-2025 as inflation fell from a 10% peak to around 4%, though it remains above the 2.5% target. Volcanic activity on the Reykjanes peninsula and heavy import demand for data centre equipment are key near-term economic variables. 100% of Iceland's electricity comes from renewable geothermal and hydropower sources, a unique global distinction."
+  },
+ 
+  israel: {
+    name: "Israel", flag: "🇮🇱", region: "Middle East",
+    status: "expanding", statusLabel: "Post-War Recovery",
+    gdp: "$530B", gdpDelta: "+3.3%", gdpPos: true,
+    inflation: "2.5%", inflationDelta: "-1.2%", inflationPos: true,
+    unemployment: "3.0%", unemploymentDelta: "-0.8%", unemploymentPos: true,
+    tradeBalance: "-$22B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "+3.9%", caPos: true,
+    fdi: "+$22B",
+    topExports: ["Diamonds", "Pharmaceuticals", "Electronics", "Software"],
+    topPartners: [
+      { name: "USA",     share: 28 },
+      { name: "China",   share: 8  },
+      { name: "UK",      share: 6  },
+      { name: "Germany", share: 5  }
+    ],
+    gdpHistory: [70,68,72,78,75,72,68,65,70,74,76,78],
+    summary: "Israel's economy demonstrated remarkable resilience through the Gaza war and the 12-day conflict with Iran in June 2025, which caused a 3.5% contraction in Q2 before activity strongly rebounded 3.0% in Q3. The ceasefire has dramatically improved the economic outlook — credit default swap rates fell 30 basis points afterward. Growth is projected at 3.3% for full-year 2025, rising to 4.9% in 2026 as a reconstruction backlog unwinds and reservists return to civilian employment. Israel has the third-largest number of NASDAQ-listed companies globally after the U.S. and China, and over 400 multinational R&D centres including Intel, Google, and Apple. The high-tech sector, comprising roughly 20% of GDP, proved resilient even during wartime."
+  },
+ 
+  kuwait: {
+    name: "Kuwait", flag: "🇰🇼", region: "Middle East",
+    status: "mixed", statusLabel: "Oil-Dependent",
+    gdp: "$134B", gdpDelta: "+2.4%", gdpPos: true,
+    inflation: "2.9%", inflationDelta: "+0.5%", inflationPos: false,
+    unemployment: "2.2%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "+$48B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+22.0%", caPos: true,
+    fdi: "+$1B",
+    topExports: ["Crude Oil", "Refined Petroleum", "Fertilisers", "Chemicals"],
+    topPartners: [
+      { name: "China",       share: 22 },
+      { name: "India",       share: 16 },
+      { name: "Japan",       share: 12 },
+      { name: "South Korea", share: 10 }
+    ],
+    gdpHistory: [72,68,60,65,70,68,65,62,60,62,63,65],
+    summary: "Kuwait is among the world's most oil-dependent economies — hydrocarbons account for nearly 90% of government revenue and 60% of GDP — leaving it exceptionally exposed to oil price cycles and OPEC+ production decisions. Non-oil GDP growth is recovering with the IMF projecting around 2.4% in 2025 after contracting in 2024 due to OPEC+ output cuts. Kuwait's fiscal breakeven oil price sits near $80/barrel, creating vulnerability when oil dips below that level. The country holds over $700 billion in the Kuwait Investment Authority sovereign wealth fund — one of the world's oldest and largest — providing a substantial fiscal buffer. Structural reforms to reduce oil dependency have been repeatedly discussed but limited in execution due to political gridlock between parliament and government."
+  },
+ 
+  oman: {
+    name: "Oman", flag: "🇴🇲", region: "Middle East",
+    status: "stable", statusLabel: "Diversifying",
+    gdp: "$108B", gdpDelta: "+2.8%", gdpPos: true,
+    inflation: "1.2%", inflationDelta: "+0.6%", inflationPos: false,
+    unemployment: "3.2%", unemploymentDelta: "-0.1%", unemploymentPos: true,
+    tradeBalance: "+$18B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+2.5%", caPos: true,
+    fdi: "+$4B",
+    topExports: ["Crude Oil", "LNG", "Petrochemicals", "Minerals"],
+    topPartners: [
+      { name: "China",       share: 42 },
+      { name: "India",       share: 11 },
+      { name: "Japan",       share: 8  },
+      { name: "South Korea", share: 6  }
+    ],
+    gdpHistory: [60,55,58,65,68,65,63,62,64,65,66,67],
+    summary: "Oman has made notable progress in fiscal consolidation and economic reform under Sultan Haitham, who succeeded the long-ruling Sultan Qaboos in 2020. Public debt has been significantly reduced and the fiscal position improved. Diversification efforts under Oman Vision 2040 are gaining traction — hospitality grew a remarkable 12.3% in H1 2025, and tourism infrastructure is expanding rapidly. Oman is deeply dependent on China as an export destination, with over 40% of oil exports going there, creating significant concentration risk. Inflation is among the lowest in the region at 1.2%. The OPEC+ tapering of production cuts in 2025 will modestly boost oil output and revenues."
+  },
+ 
+  myanmar: {
+    name: "Myanmar", flag: "🇲🇲", region: "Southeast Asia",
+    status: "contracting", statusLabel: "Crisis",
+    gdp: "$64B", gdpDelta: "-12.0%", gdpPos: false,
+    inflation: "26%", inflationDelta: "+8%", inflationPos: false,
+    unemployment: "5.1%", unemploymentDelta: "+1.8%", unemploymentPos: false,
+    tradeBalance: "-$4B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-3.5%", caPos: false,
+    fdi: "-$1B",
+    topExports: ["Natural Gas", "Garments", "Jade & Gems", "Rice"],
+    topPartners: [
+      { name: "China",     share: 36 },
+      { name: "Thailand",  share: 24 },
+      { name: "India",     share: 8  },
+      { name: "Japan",     share: 5  }
+    ],
+    gdpHistory: [65,68,70,55,45,42,38,35,32,28,24,20],
+    summary: "Myanmar is experiencing one of the most catastrophic economic collapses of any nation in recent decades, driven by the February 2021 military coup and the ensuing civil war. GDP has shrunk by an estimated 30–40% cumulatively since the coup. The World Bank projects a further 12% contraction in 2025 as conflict intensifies, currency collapses, and foreign investment vanishes. Inflation exceeds 26% and the kyat has lost over 60% of its value since 2021. Western sanctions have cut off major export markets and banking access. China and Thailand remain the primary trade partners by default. Garment factories — once a major employer — have seen mass closures. The humanitarian situation is severe with over 3 million internally displaced people."
+  },
+ 
+  uzbekistan: {
+    name: "Uzbekistan", flag: "🇺🇿", region: "Central Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$115B", gdpDelta: "+7.7%", gdpPos: true,
+    inflation: "8.9%", inflationDelta: "-1.2%", inflationPos: true,
+    unemployment: "4.8%", unemploymentDelta: "-0.3%", unemploymentPos: true,
+    tradeBalance: "+$2B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+6.0%", caPos: true,
+    fdi: "+$4B",
+    topExports: ["Gold", "Natural Gas", "Cotton", "Uranium"],
+    topPartners: [
+      { name: "Russia", share: 17 },
+      { name: "China",  share: 16 },
+      { name: "Turkey", share: 8  },
+      { name: "Kazakhstan", share: 8 }
+    ],
+    gdpHistory: [38,40,42,44,46,48,51,54,57,60,64,68],
+    summary: "Uzbekistan is Central Asia's most populous nation and one of 2025's strongest growth performers, expanding 7.7% — the fastest pace since 2021. GDP growth was driven by strong private consumption rising 9.5%, double-digit export growth in gold and uranium, and robust FDI in agriculture, transport, and renewable energy. The current account swung to a 6% surplus in H1 2025 from a deficit the prior year, supported by strong remittances equivalent to 11.2% of GDP. President Mirziyoyev's reform programme has opened the economy significantly since 2017, though the state retains heavy influence in banking and industry. Inflation is declining from a 10.1% peak toward the 5% target. Uzbekistan is well-positioned to benefit from China-Europe trade rerouting through Central Asia."
+  },
+ 
+  zimbabwe: {
+    name: "Zimbabwe", flag: "🇿🇼", region: "Southern Africa",
+    status: "mixed", statusLabel: "Fragile",
+    gdp: "$26B", gdpDelta: "+3.0%", gdpPos: true,
+    inflation: "5.4%", inflationDelta: "-576%", inflationPos: true,
+    unemployment: "20.0%", unemploymentDelta: "-1.0%", unemploymentPos: true,
+    tradeBalance: "-$2B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-4.8%", caPos: false,
+    fdi: "+$0.4B",
+    topExports: ["Gold", "Platinum", "Tobacco", "Diamonds"],
+    topPartners: [
+      { name: "UAE",          share: 30 },
+      { name: "South Africa", share: 25 },
+      { name: "China",        share: 10 },
+      { name: "Mozambique",   share: 5  }
+    ],
+    gdpHistory: [28,22,25,30,32,28,24,22,25,27,28,29],
+    summary: "Zimbabwe's economic story is defined by its extraordinary currency collapse — hyperinflation peaked at 500 billion percent in 2008, obliterating savings and forcing dollarisation. A new gold-backed currency (ZiG) was introduced in 2024 and has provided unusual stability, with inflation falling to around 5% in 2025 — a remarkable achievement by Zimbabwe's historical standards. Growth of 3% is modest but represents relative stability. Mining — gold, platinum, and diamonds — anchors export revenues. The UAE has become the dominant trade partner through gold trading channels. Deep structural challenges persist including land reform consequences on agriculture, chronic electricity shortages, capital flight, and governance concerns that severely constrain FDI beyond the mining sector."
+  },
+ 
+  iran: {
+    name: "Iran", flag: "🇮🇷", region: "Middle East",
+    status: "mixed", statusLabel: "Sanctioned",
+    gdp: "$401B", gdpDelta: "+3.6%", gdpPos: true,
+    inflation: "38%", inflationDelta: "-8%", inflationPos: true,
+    unemployment: "8.9%", unemploymentDelta: "-0.4%", unemploymentPos: true,
+    tradeBalance: "+$22B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "+2.0%", caPos: true,
+    fdi: "+$1.5B",
+    topExports: ["Crude Oil", "Petrochemicals", "Fruits & Nuts", "Carpets"],
+    topPartners: [
+      { name: "China",  share: 53 },
+      { name: "Iraq",   share: 12 },
+      { name: "Turkey", share: 7  },
+      { name: "UAE",    share: 5  }
+    ],
+    gdpHistory: [55,50,48,45,42,48,52,50,53,55,54,56],
+    summary: "Iran's economy operates under severe U.S. and international sanctions targeting its oil exports, banking system, and technology access, yet has demonstrated surprising resilience. GDP grew 3.6% in 2025, supported by oil exports routed primarily through China — which now absorbs over 53% of Iranian exports via shadow trading networks — and a recovering petrochemical sector. Inflation, while still elevated at 38%, has fallen significantly from 2023 peaks above 45%. The Israeli-Iranian military confrontation in June 2025 disrupted economic activity briefly but a ceasefire was reached. Structural economic dysfunction persists: the rial has lost over 99% of its value in the past decade, brain drain is severe, and private sector investment is deeply constrained by sanctions and regulatory barriers."
+  },
+ 
+  cambodia: {
+    name: "Cambodia", flag: "🇰🇭", region: "Southeast Asia",
+    status: "expanding", statusLabel: "Expanding",
+    gdp: "$32B", gdpDelta: "+5.8%", gdpPos: true,
+    inflation: "2.8%", inflationDelta: "-0.4%", inflationPos: true,
+    unemployment: "0.4%", unemploymentDelta: "0.0%", unemploymentPos: true,
+    tradeBalance: "-$6B", tradeBalanceDelta: "Deficit", tradeBalancePos: false,
+    currentAccount: "-11.5%", caPos: false,
+    fdi: "+$3.5B",
+    topExports: ["Garments", "Footwear", "Electronics", "Rice"],
+    topPartners: [
+      { name: "USA",          share: 31 },
+      { name: "EU",           share: 18 },
+      { name: "China",        share: 9  },
+      { name: "Japan",        share: 6  }
+    ],
+    gdpHistory: [42,44,38,45,50,52,54,56,57,58,59,61],
+    summary: "Cambodia is one of Southeast Asia's more dynamic frontier economies, recovering strongly from a severe COVID-era contraction and expanding 5.8% in 2025. Garments and footwear dominate exports, with the U.S. the largest destination — creating significant tariff exposure under current U.S. trade policy shifts. Electronics manufacturing is growing rapidly, attracting investment from companies diversifying supply chains from China and Vietnam. Tourism centred on Angkor Wat and coastal areas is recovering strongly. Cambodia has developed notably deep economic and infrastructure ties with China — including the Ream Naval Base — that have become a source of geopolitical attention from Washington. The large current account deficit reflects sustained infrastructure import dependency."
+  },
+ 
+  cameroon: {
+    name: "Cameroon", flag: "🇨🇲", region: "Sub-Sahara",
+    status: "stable", statusLabel: "Stable",
+    gdp: "$47B", gdpDelta: "+4.2%", gdpPos: true,
+    inflation: "5.8%", inflationDelta: "-1.1%", inflationPos: true,
+    unemployment: "4.0%", unemploymentDelta: "-0.2%", unemploymentPos: true,
+    tradeBalance: "+$0.5B", tradeBalanceDelta: "Surplus", tradeBalancePos: true,
+    currentAccount: "-3.1%", caPos: false,
+    fdi: "+$1.2B",
+    topExports: ["Crude Oil", "Cocoa", "Timber", "Aluminium"],
+    topPartners: [
+      { name: "China",  share: 18 },
+      { name: "Italy",  share: 12 },
+      { name: "France", share: 11 },
+      { name: "India",  share: 8  }
+    ],
+    gdpHistory: [38,39,40,41,40,42,43,44,44,45,46,47],
+    summary: "Cameroon is Central Africa's largest economy and is often described as 'Africa in miniature' for its geographic and cultural diversity — from tropical rainforests and oil-producing coastal zones to the Sahel in the north. GDP growth of 4.2% in 2025 is supported by oil revenues, agricultural exports of cocoa and timber, and infrastructure investment. However, Cameroon faces serious security challenges: the Anglophone separatist conflict in its North West and South West regions has displaced hundreds of thousands and disrupted the economy in those areas, while Boko Haram activity persists in the Far North. France remains a key economic and institutional partner. Public debt is manageable and the IMF has maintained an Extended Credit Facility supporting fiscal reforms and debt sustainability."
+  },
+  
  };
