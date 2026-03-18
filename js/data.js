@@ -601,7 +601,8 @@ const COUNTRIES = {
     gdpHistory: [55,57,60,63,61,65,68,70,72,74,76,78],
     summary: "Indonesia is Southeast Asia's largest economy and a growing strategic player in global supply chains. Its dominant nickel reserves — critical for EV batteries — have made it a target of major investment from both Chinese and Western battery manufacturers. Indonesia has leveraged this position to pursue a domestic processing requirement, forcing value-added refining onshore. Growth at nearly 5% is driven by commodity exports, rising domestic consumption, and infrastructure investment. The new Prabowo administration has signalled continuity on economic policy while expanding social spending."
   },
-norway: {
+  
+  norway: {
     name: "Norway", flag: "🇳🇴", region: "Northern Europe",
     status: "stable", statusLabel: "Stable",
     gdp: "$593B", gdpDelta: "+1.7%", gdpPos: true,
