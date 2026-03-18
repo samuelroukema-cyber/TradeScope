@@ -1321,4 +1321,4 @@ const COUNTRIES = {
     gdpHistory: [30,32,34,36,33,38,40,42,44,45,47,49],
     summary: "Bhutan is a small Himalayan kingdom pursuing a unique development philosophy centred on Gross National Happiness rather than GDP maximisation — measuring progress through well-being, cultural preservation, environmental sustainability, and good governance alongside economic growth. Hydropower exported to India is the dominant revenue source, accounting for over 80% of export earnings. The economy is heavily dependent on India — for trade, currency peg, and development assistance — making it one of the world's most asymmetric bilateral economic relationships. An unprecedented brain-drain emigration wave, particularly to Australia and the Gulf, has become a pressing policy concern. Bhutan remains one of the world's most pristine environments, protected by a 'high value, low impact' tourism model with strict visitor limits."
   },
-  };
+ };
