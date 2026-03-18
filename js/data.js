@@ -1503,7 +1503,7 @@ const COUNTRIES = {
   },
  
   cameroon: {
-    name: "Cameroon", flag: "🇨🇲", region: "Sub-Sahara",
+    name: "Cameroon", flag: "🇨🇲", region: "Sub-Saharan",
     status: "stable", statusLabel: "Stable",
     gdp: "$47B", gdpDelta: "+4.2%", gdpPos: true,
     inflation: "5.8%", inflationDelta: "-1.1%", inflationPos: true,
